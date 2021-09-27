@@ -1,0 +1,4 @@
+requests==2.22.0
+firebase_admin==5.0.1
+functions-framework==2.2.1
+random-word==1.0.7
