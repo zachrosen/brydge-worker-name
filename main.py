@@ -31,4 +31,4 @@ def addWorkerToDB(request):
     workerName = generateWorkerName()
     workerRef.set({ wallet: workerName }, merge=True)
     print('wallet: ', wallet, ' given workerName: ', workerName)
-    return 'success'
+    return wallet
